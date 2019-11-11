@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: Carbon
+version: 2.0
+author: Eric Hettervik (Rookervik)
+license: creative commons CC-BY-NC-SA
+originally based on: "simple" by nils bonenberger
+-->
+<theme defaultView="Tiles + Video + Marquee">
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <baseColor>8b0000</baseColor>
+    <gradientEndColor>6b2020</gradientEndColor>
+    <centerFadeColor>8b000050</centerFadeColor>
+    <bottomBarColor>8b0000c0</bottomBarColor>
+    <glowColor>Ab000020</glowColor>
+    <systemInfoColor>DDDDDDD8</systemInfoColor>
+    <backgroundImage>./art/fiber.png</backgroundImage>
+    <tilesViewName>Tiles</tilesViewName>
+  </variables>
+
+  <include subset="colorset" name="blue" displayName="${blue}">./art/colors/blue.xml</include>
+  <include subset="colorset" name="red" displayName="${red}"/>
+  <include subset="colorset" name="green" displayName="${green}">./art/colors/green.xml</include>
+  <include subset="colorset" name="yellow" displayName="${yellow}">./art/colors/yellow.xml</include>
+
+  <include subset="system" name="horizontal" displayName="horizontal">./art/horizontal.xml</include>
+  <include subset="system" name="vertical" displayName="vertical">./art/vertical.xml</include> 
+
+</theme>

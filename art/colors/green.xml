@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <variables>
+    <baseColor>2f8c2f</baseColor>
+    <gradientEndColor>174417</gradientEndColor>
+    <centerFadeColor>37a43750</centerFadeColor>
+    <bottomBarColor>41c041</bottomBarColor>
+    <glowColor>37a43720</glowColor>
+    <systemInfoColor>FAFAFFB0</systemInfoColor>
+    <backgroundImage>./art/fiber.png</backgroundImage>
+  </variables>
+</theme>
